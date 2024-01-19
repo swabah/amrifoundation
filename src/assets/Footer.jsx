@@ -53,13 +53,15 @@ const Footer = () => {
               <span className="text-2xl">
                 <CgPhone />
               </span>{' '}
-              <span>+91 984765 4069<br />+91 960565 5712</span>
+              <a href='tel:+91 9847654069'>+91 984765 4069</a>
+              <br /> 
+              <a href="tel:+91 9605655712">+91 960565 5712</a>
             </li>
             <li className="flex items-center tracking-wider space-x-2.5">
               <span className="text-2xl">
                 <CgMail />
               </span>{' '}
-              <span>info@amrifoundation.com</span>
+              <a href='mailto:info@amrifoundation.com'>info@amrifoundation.com</a>
             </li>
             <li className="flex items-center tracking-wider space-x-2.5">
               <span className="text-2xl">
@@ -84,7 +86,7 @@ const Footer = () => {
           <a href="#">
             <CgFacebook />
           </a>
-          <a href="#">
+          <a href="https://amrifoundation.com/">
             <CgWebsite />
           </a>
         </div>

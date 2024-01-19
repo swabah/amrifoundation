@@ -1,7 +1,7 @@
 import React from 'react';
 import bgAcademic from '../../assets/Img/bgPattern.jpg';
-import { ServiceData } from '../../Data/ServiceData';
-import ServiceCard from '../../assets/ServiceCard';
+import { ServiceData } from '../../Data/ServiceData'
+import ServiceCard from '../ServiceCard';
 
 
 

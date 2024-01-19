@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { useCountUp } from 'react-countup';
 import { GlobalPresenceData } from '../../Data/GlobalPresenceData';
-import GlobalCardTabs from '../../assets/GlobalCardTabs';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
@@ -12,6 +11,7 @@ import 'tailwindcss/tailwind.css'; // Import Tailwind CSS
 
 // import required modules
 import { Pagination } from 'swiper/modules';
+import GlobalCardTabs from '../GlobalCardTabs';
 
 function HomeThree() {
   const [activeTab, setActiveTab] = useState('Served_Food');

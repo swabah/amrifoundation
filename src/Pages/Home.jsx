@@ -6,6 +6,7 @@ import HomeFive from '../Components/Home/HomeFive';
 import HomeSeven from '../Components/Home/HomeSeven';
 import HomeEight from '../Components/Home/HomeEight';
 import { Link } from 'react-router-dom';
+import HomeFour from '../Components/Home/HomeFour';
 
 function Home() {
 
@@ -29,6 +30,7 @@ function Home() {
       <HomeThree />
       {/* <HomeFive /> */}
       <HomeEight />
+      <HomeFour/>
       <HomeSeven />
     </div>
   )
