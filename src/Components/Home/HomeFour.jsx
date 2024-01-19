@@ -30,14 +30,7 @@ function HomeFour() {
 
   return (
     <div className='relative flex flex-col items-center justify-center w-full h-full px-3 py-10 md:py-16 lg:py-20 xl:py-24 md:px-10 lg:px-10 xl:px-36'>
-      <div className='relative grid bg-[#c8e5ed] rounded-sm w-full h-full  grid-cols-1 md:grid-cols-5 p-10 gap-8 lg:p-16'>
-        <div className='font-sans w-full flex flex-col items-start justify-between h-full gap-4 md:col-span-3'>
-          <div className=' w-full flex flex-col gap-2 md:gap-5 h-full'>
-            <p className='text-[#1d434e] text-2xl font-light'>Empower positive change with your support!</p>
-            <h3 className='w-4/5 font-medium text-[#1d434e] lg:text-lg'>Your generosity propels us forward, making a difference one donation at a time. Together, let's create a world where every contribution counts and transforms lives.</h3>
-          </div>
-          <a href='tel:+91 9847654069' className='text-[#1d434e] text-sm md:text-base font-medium uppercase'>learn more</a>
-        </div>
+      <div className='relative grid bg-[#c8e5ed] rounded-sm w-full h-full  grid-cols-1 md:grid-cols-5 p-5 py-10 md:p-10 gap-10 lg:gap-14 lg:p-16'>
         <div className='flex flex-col w-auto md:col-span-2 gap-2'>
           <div className='grid items-center justify-center grid-cols-2 gap-3 text-center '>
             {[1000, 2000, 5000, 10000].map((donationAmount) => (
@@ -63,6 +56,13 @@ function HomeFour() {
           <button className='active:bg-[#295e6ed6] w-full font-medium p-2 rounded-lg px-4 lg:px-6 font-sans text-base lg:text-lg  border-2 border-[#295e6e] bg-[#1d434e] text-white transition-all duration-400'>
             Donate
           </button>
+        </div>
+        <div className='font-sans w-full flex flex-col items-start justify-between h-full gap-4 md:col-span-3'>
+          <div className=' w-full flex flex-col gap-2 md:gap-5 h-full'>
+            <p className='text-[#1d434e] text-2xl font-light'>Empower positive change with your support!</p>
+            <h3 className='w-4/5 font-medium text-[#1d434e] lg:text-lg'>Your generosity propels us forward, making a difference one donation at a time. Together, let's create a world where every contribution counts and transforms lives.</h3>
+          </div>
+          <a href='tel:+91 9847654069' className='text-[#1d434e] text-sm md:text-base font-medium uppercase'>learn more</a>
         </div>
       </div>
     </div>
