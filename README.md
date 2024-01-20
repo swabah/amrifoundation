@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Amri Foundation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+Welcome to the Amri Foundation repository! 🌍 This foundation is on a mission to create a positive impact on society through various initiatives and projects. Learn more about us, our vision, and how you can contribute.
 
-In the project directory, you can run:
+## Vision
 
-### `npm start`
+Amri Foundation, rooted in India with a global vision, operates under the philosophy of 'Vasudhaiva Kutumbakam' - the world is one family. Join us in building a unified, joyous global community by the year 2030.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Initiatives
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Explore our initiatives:
 
-### `npm test`
+### Amri Mindtalks
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Dedicated to nurturing mental well-being and promoting healing of the mind.
 
-### `npm run build`
+### Zero Poverty by 2030
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Committed to eradicating hunger and ensuring food security for all by 2050.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Education
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Fueled by the belief that education is the key to unlocking human potential, we aim to blanket every corner of the globe with the light of knowledge by 2050.
 
-### `npm run eject`
+### Smile Project
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Spread happiness across the world by 2050.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Global Peace
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Working towards a more peaceful world by 2050.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Save Planet
 
-## Learn More
+Taking bold steps towards securing a greener and more sustainable future, one tree at a time.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contact
 
-### Code Splitting
+For questions or assistance, contact us at [info@amrifoundation.com].
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Thank you for your interest in Amri Foundation! Together, we can make a difference
