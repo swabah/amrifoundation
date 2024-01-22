@@ -29,7 +29,7 @@ function Header() {
 
 
   return (
-    <div className={`w-full h-auto  px-3 md:px-10 lg:px-10 xl:px-36 py-4 z-50 md:py-5  lg:py-6 ${location.pathname === '/' && 'fixed left-0 top-0 bg-[#ffffff] shadow-lg drop-shadow-md shadow-[#48a6c327] '}`}>
+    <div className={`w-full h-auto  px-5 md:px-10 lg:px-10 xl:px-36 py-4 z-50 md:py-5  lg:py-6 ${location.pathname === '/' && 'fixed left-0 top-0 bg-[#ffffff] shadow-lg drop-shadow-md shadow-[#48a6c327] '}`}>
       <div className="flex items-center justify-between w-full h-full">
         <Link to='/'>
           <img onClick={() => { window.scrollTo({ top: 0, left: 0, behavior: 'smooth' }); }} className={`cursor-pointer w-40 md:w-44 xl:w-56`} src={logo} alt="" />
@@ -57,10 +57,10 @@ function Header() {
           />
         </div>
       </div>
-      <div className={`xl:hidden w-full md:w-1/2 lg:w-1/2 md:shadow-lg h-screen ${navOpen ? 'flex opacity-100' : 'hidden opacity-0 -z-50  '} bg-white px-3 py-4 md:py-5  lg:py-6 md:px-10  lg:px-20 xl:px-36 flex-col border-b border-[#0d1d39] justify-start items-start z-50 right-0 top-0 md:right-0 absolute`}>
+      <div className={`xl:hidden w-full md:w-1/2 lg:w-1/2 md:shadow-lg h-screen ${navOpen ? 'flex opacity-100' : 'hidden opacity-0 -z-50  '} bg-white px-5 py-4 md:py-5  lg:py-6 md:px-10  lg:px-20 xl:px-36 flex-col border-b border-[#0d1d39] justify-start items-start z-50 right-0 top-0 md:right-0 absolute`}>
         <div className="flex items-center justify-between w-full h-auto md:justify-end">
           <Link to='/'>
-            <img onClick={() => { window.scrollTo({ top: 0, left: 0, behavior: 'smooth' }); }} className="cursor-pointer  w-40 md:w-44 xl:w-56 md:hidden" src={logo} alt="" />
+            <img onClick={() => { window.scrollTo({ top: 0, left: 0, behavior: 'smooth' }); }} className="w-40 cursor-pointer md:w-44 xl:w-56 md:hidden" src={logo} alt="" />
           </Link>
           <CgClose
             className={`text-[30px] lg:text-[40px] text-[#0d1d39]  font-bold cursor-pointer`}

@@ -15,11 +15,11 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-[#2C2C2C] text-white px-3 md:px-10 lg:px-10 xl:px-36 py-7 md:py-16">
+    <footer className="bg-[#2C2C2C] text-white px-5 md:px-10 lg:px-10 xl:px-36 py-7 md:py-16">
       <div className="grid items-end gap-5 font-sans md:gap-10 lg:gap-32 opacity-90 md:grid-cols-3">
         <div className="py-5 space-y-5">
         <Tolink to='/'>
-        <img onClick={() => { window.scrollTo({top: 0, left: 0, behavior: 'smooth'});}} className='cursor-pointer w-64 lg:w-80' src={logo} alt="" />
+        <img onClick={() => { window.scrollTo({top: 0, left: 0, behavior: 'smooth'});}} className='w-64 cursor-pointer lg:w-80' src={logo} alt="" />
         </Tolink>
           <p className="text-white">
           Click here to become an amri global volunteer. Be a part of change

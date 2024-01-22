@@ -4,6 +4,7 @@ import { useToast } from "@chakra-ui/react";
 import { useState } from "react";
 import {useCollectionData} from "react-firebase-hooks/firestore"
 
+ 
 
 export function useEvents(uid = null) {
     const q = uid
@@ -25,7 +26,7 @@ export function useDeleteEvent(id) {
         const res = window.confirm("Are you sure you want to delete this Event?");
         if (res) {
             setLoading(true);
-            // Delete Poem document
+            // Delete Initiative document
             await deleteDoc(doc(db, "events", id));
             toast({
                 title: "Event deleted!",

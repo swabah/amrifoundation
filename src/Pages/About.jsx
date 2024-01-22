@@ -15,12 +15,12 @@ function About() {
       <div className='flex flex-col items-center justify-center w-full h-full py-12 bg-white space-y-7 lg:space-y-12 md:py-16 lg:py-22'>
         <h2 className=' text-4xl md:text-5xl lg:text-[3.5rem]'>About us</h2>
         <img src={AboutImg} className='object-cover w-full h-72 lg:h-96' alt="" />
-        <p className='px-3 mt-4 font-sans text-base font-normal leading-snug tracking-wide text-center md:px-10 lg:px-10 xl:px-36 md:text-xl lg:text-2xl'>Amri Foundation, rooted in India with a global vision, operates with the philosophy of 'Vasudhaiva Kutumbakam' - the world is one family. With headquarters in Kerala, we channel the spirit of inclusivity to weave a tapestry of interconnectedness across nations, aiming to realize a unified, joyous global community by the year 2030</p>
+        <p className='px-5 mt-4 font-sans text-base font-normal leading-snug tracking-wide text-center md:px-10 lg:px-10 xl:px-36 md:text-xl lg:text-2xl'>Amri Foundation, rooted in India with a global vision, operates with the philosophy of 'Vasudhaiva Kutumbakam' - the world is one family. With headquarters in Kerala, we channel the spirit of inclusivity to weave a tapestry of interconnectedness across nations, aiming to realize a unified, joyous global community by the year 2030</p>
       </div>
 
       {/* Join Amri and Support   */}
 
-      <div style={{ backgroundImage: `url(${PatternBg})` }} className='relative flex flex-col items-center justify-center w-full h-full px-3 py-16 bg-no-repeat md:py-20 lg:py-24 gap-y-10 md:gap-y-12 xl:gap-y-20 md:px-10 lg:px-10 xl:px-36'>
+      <div style={{ backgroundImage: `url(${PatternBg})` }} className='relative flex flex-col items-center justify-center w-full h-full px-5 py-16 bg-no-repeat md:py-20 lg:py-24 gap-y-10 md:gap-y-12 xl:gap-y-20 md:px-10 lg:px-10 xl:px-36'>
         <div className='w-full h-full bg-[#619A46]  opacity-5 absolute top-0 left-0 '></div>
         <div className='grid grid-cols-1 gap-5 overflow-hidden md:grid-cols-2 md:gap-12 grid-rows-auto'>
           <div className='order-2 space-y-3 md:space-y-5 '>
@@ -48,7 +48,7 @@ function About() {
           </div>
         </div>
       </div>
-      <div className='flex flex-col items-start justify-center w-full h-auto px-3 py-16 space-y-12 md:py-20 lg:py-24 md:px-10 lg:px-10 xl:px-36'>
+      <div className='flex flex-col items-start justify-center w-full h-auto px-5 py-16 space-y-12 md:py-20 lg:py-24 md:px-10 lg:px-10 xl:px-36'>
         <h3 className='text-4xl md:text-5xl lg:text-[3rem]'>Amri Stories</h3>
         <div className='grid w-full h-full grid-cols-1 gap-3 grid-rows-auto md:grid-cols-2 md:gap-5 '>
           <img className='w-full  object-cover h-72 md:h-full lg:h-[80vh]' src={Life1} alt="" />
