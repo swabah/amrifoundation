@@ -18,11 +18,11 @@ const Footer = () => {
     <footer className="bg-[#2C2C2C] text-white px-5 md:px-10 lg:px-10 xl:px-36 py-7 md:py-16">
       <div className="grid items-end gap-5 font-sans md:gap-10 lg:gap-32 opacity-90 md:grid-cols-3">
         <div className="py-5 space-y-5">
-        <Tolink to='/'>
-        <img onClick={() => { window.scrollTo({top: 0, left: 0, behavior: 'smooth'});}} className='w-64 cursor-pointer lg:w-80' src={logo} alt="" />
-        </Tolink>
+          <Tolink to='/'>
+            <img onClick={() => { window.scrollTo({ top: 0, left: 0, behavior: 'smooth' }); }} className='w-64 cursor-pointer lg:w-80' src={logo} alt="" />
+          </Tolink>
           <p className="text-white">
-          Click here to become an amri global volunteer. Be a part of change
+            Click here to become an amri global volunteer. Be a part of change
           </p>
         </div>
         <div className='py-5'>
@@ -49,32 +49,32 @@ const Footer = () => {
         <div className='py-5'>
           <h4 className="mb-5 text-lg font-semibold tracking-wide">Contact</h4>
           <ul className="space-y-2.5">
-            <li className="flex items-center tracking-wider gap-2.5">
+            <li className="flex items-start tracking-wider gap-2.5">
               <span className="text-2xl">
                 <CgPhone />
               </span>
-              <a href='tel:+91 9847654069'>+91 984765 4069</a>
-              <br /> 
-              <a href="tel:+91 9605655712">+91 960565 5712</a>
+              <div>
+                <a href='tel:+91 9847654069'>+91 984765 4069</a>
+                <br />
+                <a href="tel:+91 9605655712">+91 960565 5712</a>
+              </div>
             </li>
-            <li className="flex items-center tracking-wider gap-2.5">
+            <li className="flex items-start tracking-wider gap-2.5">
               <span className="text-2xl">
                 <CgMail />
               </span>
-              <a href='mailto:info@amrifoundation.com'>hr@amrifoundation.com</a>
-            </li>
-            <li className="flex items-center tracking-wider gap-2.5">
-              <span className="text-2xl">
-                <CgMail />
-              </span>
-              <a href='mailto:info@amrifoundation.com'>sabiq@amrifoundation.com</a>
+              <div>
+                <a href='mailto:hr@amrifoundation.com'>hr@amrifoundation.com</a>
+                <br />
+                <a href='mailto:sabiq@amrifoundation.com'>sabiq@amrifoundation.com</a>
+              </div>
             </li>
             <li className="flex items-center tracking-wider gap-2.5">
               <span className="text-2xl">
                 <FiMapPin />
               </span>
               <span>
-               Chelavoor, Calicut, Kerala
+                Chelavoor, Calicut, Kerala
               </span>
             </li>
           </ul>

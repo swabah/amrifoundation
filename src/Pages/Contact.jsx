@@ -17,11 +17,10 @@ function Contact() {
                     </div>
                     <div className='flex items-start w-full h-auto gap-2 tracking-wide md:gap-5'>
                         <div className='bg-[#295e6e]  text-white rounded-xl p-2 text-xl  md:text-xl'><FiMail/></div>
+                        <div className='flex flex-col items-start w-full '>
                         <a href='mailto:hr@amrifoundation.com' className='text-lg font-normal md:text-xl'>hr@amrifoundation.com</a>
-                    </div>
-                    <div className='flex items-start w-full h-auto gap-2 tracking-wide md:gap-5'>
-                        <div className='bg-[#295e6e]  text-white rounded-xl p-2 text-xl  md:text-xl'><FiMail/></div>
                         <a href='mailto:sabiq@amrifoundation.com' className='text-lg font-normal md:text-xl'>sabiq@amrifoundation.com</a>
+                        </div>
                     </div>
                     <div className='flex items-start w-full h-auto gap-2 tracking-wide md:gap-5'>
                         <div className='bg-[#295e6e] text-white rounded-xl p-2 text-xl  md:text-xl'><FiMapPin/></div>
