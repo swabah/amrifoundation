@@ -11,13 +11,17 @@ function Contact() {
                     <div className='flex items-start w-full h-auto gap-2 md:gap-5 lg:mt-10'>
                         <div className='bg-[#295e6e]  text-white rounded-xl p-2 text-xl md:text-xl'><FiPhoneCall/></div>
                         <div className='flex flex-col items-start w-full text-lg font-normal tracking-wide md:text-xl'>
-                            <p>+91 984765 4069</p>
-                            <p>+91 960565 5712</p>
+                            <a href='tel:+91 9847654069'>+91 984765 4069</a>
+                            <a href='tel:+91 9605655712'>+91 960565 5712</a>
                         </div>
                     </div>
                     <div className='flex items-start w-full h-auto gap-2 tracking-wide md:gap-5'>
                         <div className='bg-[#295e6e]  text-white rounded-xl p-2 text-xl  md:text-xl'><FiMail/></div>
-                        <p className='text-lg font-normal md:text-xl'>info@amrifoundation.com</p>
+                        <a href='mailto:hr@amrifoundation.com' className='text-lg font-normal md:text-xl'>hr@amrifoundation.com</a>
+                    </div>
+                    <div className='flex items-start w-full h-auto gap-2 tracking-wide md:gap-5'>
+                        <div className='bg-[#295e6e]  text-white rounded-xl p-2 text-xl  md:text-xl'><FiMail/></div>
+                        <a href='mailto:sabiq@amrifoundation.com' className='text-lg font-normal md:text-xl'>sabiq@amrifoundation.com</a>
                     </div>
                     <div className='flex items-start w-full h-auto gap-2 tracking-wide md:gap-5'>
                         <div className='bg-[#295e6e] text-white rounded-xl p-2 text-xl  md:text-xl'><FiMapPin/></div>

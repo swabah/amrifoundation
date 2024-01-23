@@ -49,24 +49,30 @@ const Footer = () => {
         <div className='py-5'>
           <h4 className="mb-5 text-lg font-semibold tracking-wide">Contact</h4>
           <ul className="space-y-2.5">
-            <li className="flex items-center tracking-wider space-x-2.5">
+            <li className="flex items-center tracking-wider gap-2.5">
               <span className="text-2xl">
                 <CgPhone />
-              </span>{' '}
+              </span>
               <a href='tel:+91 9847654069'>+91 984765 4069</a>
               <br /> 
               <a href="tel:+91 9605655712">+91 960565 5712</a>
             </li>
-            <li className="flex items-center tracking-wider space-x-2.5">
+            <li className="flex items-center tracking-wider gap-2.5">
               <span className="text-2xl">
                 <CgMail />
-              </span>{' '}
-              <a href='mailto:info@amrifoundation.com'>info@amrifoundation.com</a>
+              </span>
+              <a href='mailto:info@amrifoundation.com'>hr@amrifoundation.com</a>
             </li>
-            <li className="flex items-center tracking-wider space-x-2.5">
+            <li className="flex items-center tracking-wider gap-2.5">
+              <span className="text-2xl">
+                <CgMail />
+              </span>
+              <a href='mailto:info@amrifoundation.com'>sabiq@amrifoundation.com</a>
+            </li>
+            <li className="flex items-center tracking-wider gap-2.5">
               <span className="text-2xl">
                 <FiMapPin />
-              </span>{' '}
+              </span>
               <span>
                Chelavoor, Calicut, Kerala
               </span>
@@ -79,7 +85,7 @@ const Footer = () => {
         <h1 className="font-sans text-base font-thin text-center md:text-left">
           © 2023 amrifoundation All Rights Reserved Privacy Policy
         </h1>
-        <div className="flex items-center mt-5 space-x-8 text-xl md:mt-0">
+        <div className="flex items-center gap-8 mt-5 text-xl md:mt-0">
           <a href="#">
             <CgInstagram />
           </a>
