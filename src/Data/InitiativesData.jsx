@@ -4,6 +4,8 @@ import edu from '../assets/amriimg/edu.jpeg'
 import smile from '../assets/amriimg/smile.jpeg'
 import unity from '../assets/amriimg/unity.jpeg'
 import trees from '../assets/amriimg/trees.jpeg'
+import academy from '../assets/amriimg/initiative/academy.jpg'
+import care from '../assets/amriimg/initiative/caring.jpg'
 
 
 export const InitiativesData = [
@@ -42,5 +44,17 @@ export const InitiativesData = [
         buttonTo:"/Initiatives/Save_Planet", 
         title : "Save Planet", 
         description : "Amri Foundation's Save Planet for Sustainable Development initiative is our bold step towards securing a greener and more sustainable future, one tree at a time. With a commitment to", 
-    }
+    },
+    {
+        img : academy,
+        buttonTo:"/Initiatives/amri_academy", 
+        title : "Amri Academy", 
+        description : "Amri Foundation's Save Planet for Sustainable Development initiative is our bold step towards securing a greener and more sustainable future, one tree at a time. With a commitment to", 
+    },
+    {
+        img : care,
+        buttonTo:"/Initiatives/amri_care", 
+        title : "Amri Care", 
+        description : "Amri Foundation's Save Planet for Sustainable Development initiative is our bold step towards securing a greener and more sustainable future, one tree at a time. With a commitment to", 
+    },
 ]

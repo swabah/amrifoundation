@@ -13,7 +13,9 @@ function Events() {
   const featuredEvent = Events?.[0];
 
   return (
-    <div className='w-full h-full min-h-screen bg-white'>
+    <>
+    {Events ? 
+    (<div className='w-full h-full min-h-screen bg-white'>
       <div className='flex flex-col items-center justify-center w-full h-full gap-10 px-5 text-center py-7 md:py-16 lg:py-22 md:gap-16 lg:gap-12 md:px-10 lg:px-10 xl:px-36'>
         <h2 className='text-3xl md:px-8 lg:px-16 xl:px-24 md:text-4xl lg:text-5xl xl:text-6xl'>{featuredEvent?.Heading}</h2>
         <img className='w-full h-[60vh] rounded object-cover' src={featuredEvent?.EventImgUrl} alt='' />
@@ -27,7 +29,13 @@ function Events() {
           ))}
         </div>
       </div>
-    </div>
+    </div>)
+    :
+    (<div className='w-full h-full min-h-screen bg-white'>
+      Waiting for internet...
+    </div>)
+    }
+    </>
   );
 }
 
